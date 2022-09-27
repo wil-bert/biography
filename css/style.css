@@ -1,0 +1,80 @@
+body{
+
+    background-image: url(/images/background.jpg);
+}
+
+/* navigation bar............................................... */
+.nav{
+    float: right;
+
+}
+.nav a{
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Vast Shadow';
+    color: white;
+    font-size: x-large;
+    padding: 15px 15px;
+    border-radius: 5px;
+}
+.nav a:hover{
+    background-color: rgb(165, 180, 137);
+    color: black;
+}
+
+.container{
+    background-color: rgba(32, 34, 36, 0.397);
+    border-radius: 0.5rem;
+    text-align: center;
+    color: antiquewhite;
+    align-items: center;
+}
+
+.column {
+    display: flex;
+    padding: 30px;
+}
+
+.column-2{
+    padding: 30px;
+    display: block;
+}
+/* flipbox.......................................... */
+.flip-box {
+    background-color: transparent;
+    width: 200px;
+    height: 300px;
+    border-radius: 5px;
+    perspective: 1000px;
+  }
+
+  .flip-box-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+
+  .flip-box:hover .flip-box-inner {
+    transform: rotateY(180deg);
+  }
+
+  .flip-box-front, .flip-box-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+
+  .flip-box-front {
+    background-color: #bbb;
+    color: black;
+  }
+
+  .flip-box-back {
+    background-color: dodgerblue;
+    color: white;
+    transform: rotateY(180deg);
+  }
