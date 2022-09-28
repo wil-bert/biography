@@ -18,7 +18,7 @@ body{
     border-radius: 5px;
 }
 .nav a:hover{
-    background-color: rgb(165, 180, 137);
+    background-color: rgba(11, 238, 227, 0.582);
     color: black;
 }
 
@@ -33,11 +33,14 @@ body{
 .column {
     display: flex;
     padding: 30px;
+    width: 100%;
 }
 
 .column-2{
     padding: 30px;
-    display: block;
+    display: flexbox;
+    width: 80%;
+
 }
 /* flipbox.......................................... */
 .flip-box {
