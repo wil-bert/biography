@@ -1,6 +1,7 @@
 body{
-
     background-image: url(/images/background.jpg);
+    height: 100%;
+
 }
 
 /* navigation bar............................................... */
@@ -23,10 +24,10 @@ body{
 }
 
 .container{
-    background-color: rgba(32, 34, 36, 0.397);
-    border-radius: 0.5rem;
+    background-color: rgba(36, 37, 37, 0.904);
+    border-radius: 1.5rem;
     text-align: center;
-    color: antiquewhite;
+    color: rgb(255, 255, 255);
     align-items: center;
 }
 
