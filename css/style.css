@@ -114,9 +114,13 @@ body{
   article{
     text-align: center;
     align-items: center;
-    display: block;
+    display: flexbox;
     margin: 50px;
     font-size: 20px;
     border-radius: 2.5px;
     background-color: #bbb;
+  }
+  article, h1{
+    font-family: 'Times New Roman', Times, serif;
+
   }
