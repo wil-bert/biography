@@ -23,6 +23,21 @@ body{
     background-color: rgba(11, 238, 227, 0.582);
     color: black;
 }
+a{
+  text-decoration: none;
+    text-align: center;
+    font-family: 'Vast Shadow';
+    background-color: black;
+    color: white;
+    font-size: x-large;
+    padding: 15px 15px;
+    border-radius: 5px;
+
+}
+a:hover{
+  background-color: rgb(255, 0, 0);
+  color: black;
+}
 
 /* visitor count....................................... */
 .website-counter {
