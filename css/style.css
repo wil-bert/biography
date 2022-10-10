@@ -110,3 +110,13 @@ body{
     color: white;
     transform: rotateY(180deg);
   }
+  /* biography............................... */
+  article{
+    text-align: center;
+    align-items: center;
+    display: block;
+    margin: 50px;
+    font-size: 20px;
+    border-radius: 2.5px;
+    background-color: #bbb;
+  }
