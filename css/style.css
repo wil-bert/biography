@@ -145,5 +145,23 @@ a:hover{
   font-size: 15px;
   width: 50%;
   text-align: left;
-
+}
+/* spinning image */
+@keyframes spin3D {
+  from { transform: rotateY(0deg) }
+  to { transform: rotateY(360deg) }
+}
+.spin {
+  animation-name: spin3D;
+  animation-duration: 2s;
+  animation-direction: alternate;
+  animation-iteration-count: 10;
+  /* linear | ease | ease-in | ease-out | ease-in-out */
+  animation-timing-function: ease-in-out;
+  animation-delay: 2s;
+}
+img{
+  margin-left: 400px;
+  height: 40vh;
+  width: 35vw;
 }
