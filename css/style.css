@@ -125,7 +125,7 @@ a:hover{
     color: white;
     transform: rotateY(180deg);
   }
-  /* biography............................... */
+  /*................................. biography............................... */
   article{
     text-align: center;
     align-items: center;
@@ -139,3 +139,11 @@ a:hover{
     font-family: 'Times New Roman', Times, serif;
 
   }
+
+  /* ....................................awards............................................ */
+.column-3 {
+  font-size: 15px;
+  width: 50%;
+  text-align: left;
+
+}
