@@ -139,6 +139,11 @@ a:hover{
     font-family: 'Times New Roman', Times, serif;
 
   }
+  .who{
+    height: 40vh;
+    border-radius: 1.5px;
+
+  }
 
   /* ....................................awards............................................ */
 .column-3 {
@@ -159,7 +164,7 @@ a:hover{
   animation-timing-function: linear;
   animation-delay: 2s;
 }
-img{
+#image {
   margin-left: 500px;
   height: 40vh;
   width: 20vw;
