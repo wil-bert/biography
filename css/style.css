@@ -35,7 +35,7 @@ a{
 
 }
 a:hover{
-  background-color: rgb(255, 0, 0);
+  background-color: transparent;
   color: black;
 }
 
@@ -125,6 +125,8 @@ a:hover{
     color: white;
     transform: rotateY(180deg);
   }
+
+
   /*................................. biography............................... */
   article{
     text-align: center;
