@@ -15,8 +15,8 @@ counterContainer.innerHTML = visitCount;
 
 
 // reset button...................................................
-// resetButton.addEventListener("click", () => {
-//   visitCount = 1;
-//   localStorage.setItem("page_view", 1);
-//   counterContainer.innerHTML = visitCount;
-// });
+resetButton.addEventListener("click", () => {
+  visitCount = 1;
+  localStorage.setItem("page_view", 1);
+  counterContainer.innerHTML = visitCount;
+});
