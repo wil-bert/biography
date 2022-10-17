@@ -260,13 +260,13 @@ select {
 select {
   word-wrap: normal;
 }
-
+/*
 button,
 [type="button"],
 [type="reset"],
-[type="submit"] {
-  -webkit-appearance: button;
-}
+[type="submit"] { */
+  /* -webkit-appearance: button; */
+
 
 button:not(:disabled),
 [type="button"]:not(:disabled),
@@ -322,7 +322,7 @@ progress {
   height: auto;
 }
 
-[type="search"] {
+/* [type="search"] {
   outline-offset: -2px;
   -webkit-appearance: none;
 }
@@ -334,7 +334,7 @@ progress {
 ::-webkit-file-upload-button {
   font: inherit;
   -webkit-appearance: button;
-}
+} */
 
 output {
   display: inline-block;
