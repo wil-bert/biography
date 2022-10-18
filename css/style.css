@@ -179,14 +179,15 @@ a:hover{
 .row-1 {
   display: flex;
   flex-wrap: wrap;
-  padding: 0 3px;
+  width: 100%;
+
 }
 
 /* Create four equal columns that sits next to each other */
 .column-0 {
   flex: 25%;
   max-width: 100%;
-  padding: 0 4px;
+  padding: 0 5px;
 }
 
 .column-0 img {
@@ -196,7 +197,7 @@ a:hover{
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 100%) {
+@media screen and (max-width: 600px) {
   .column-0 {
     flex: 50%;
     max-width: 100%;
@@ -204,9 +205,29 @@ a:hover{
 }
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 100%) {
+@media screen and (max-width: 800px) {
   .column-0 {
-    flex: 100%;
+    flex: 50%;
     max-width: 100%;
   }
+}
+
+/* .............................books......................................... */
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #2196F3;
+  padding: 10px;
+}
+.card{
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+.img-b{
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
 }
